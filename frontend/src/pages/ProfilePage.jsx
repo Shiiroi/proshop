@@ -10,7 +10,7 @@ import { useProfileMutation } from "../slices/usersApiSlice";
 import { useGetMyOrdersQuery } from "../slices/ordersApiSlice";
 import { setCredentials } from "../slices/authSlice";
 import { Link } from "react-router-dom";
-import { Meta } from "react-router-dom";
+import Meta from "../components/Meta";
 
 const ProfilePage = () => {
   const [name, setName] = useState("");
