@@ -7,6 +7,7 @@ import Loader from "../components/Loader";
 import { useLoginMutation } from "../slices/usersApiSlice";
 import { setCredentials } from "../slices/authSlice";
 import { toast } from "react-toastify";
+import Meta from "../components/Meta";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -41,6 +42,8 @@ const LoginPage = () => {
   };
 
   return (
+    <>
+    <Meta title="Sign In"/>
     <FormContainer>
       <h1>Sign In</h1>
 
@@ -85,6 +88,7 @@ const LoginPage = () => {
         </Col>
       </Row>
     </FormContainer>
+  </>
   );
 };
 

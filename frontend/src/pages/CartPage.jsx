@@ -3,6 +3,7 @@ import { FaTrash } from "react-icons/fa";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, removeFromCart } from "../slices/cartSlice";
 import Message from "../components/Message";
+import Meta from "../components/Meta";
 import {
   Row,
   Col,
@@ -33,6 +34,8 @@ const CartPage = () => {
   }
 
   return (
+    <>
+    <Meta title="Shopping Cart"/>
     <Row>
       <Col md={8}>
         <h1 style={{ marginBottom: "20px" }}>Shopping Cart</h1>
@@ -113,6 +116,7 @@ const CartPage = () => {
         </Card>
       </Col>
     </Row>
+    </>
   );
 };
 
