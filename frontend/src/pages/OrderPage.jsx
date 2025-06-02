@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
-import Meta from '../components/Meta';
 import {
   useDeliverOrderMutation,
   useGetOrderDetailsQuery,
@@ -108,7 +107,6 @@ const OrderPage = () => {
     <Message variant='danger'>{error.data.message}</Message>
   ) : (
     <>
-      <Meta title={`Order ${order._id}`} />
       <h1>Order {order._id}</h1>
       <Row>
         <Col md={8}>
