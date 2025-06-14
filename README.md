@@ -1,5 +1,7 @@
 # 🛒 Full Stack E-Commerce Website (MERN Stack)
 
+🔗 **Live Demo:** [https://proshop-bd5x.onrender.com/](https://proshop-bd5x.onrender.com/)
+
 This is a guided full-stack e-commerce project built using the **MERN** stack:  
 **MongoDB**, **Express.js**, **React.js**, and **Node.js**.  
 The project simulates a real-world e-commerce platform with a fully functional frontend and backend, including **RESTful API**, **CRUD operations**, and essential e-commerce features.
