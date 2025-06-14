@@ -24,6 +24,7 @@ The project simulates a real-world e-commerce platform with a fully functional f
 - JWT-based authentication & protected routes
 - Role-based access control (Admin vs User)
 - Error handling and request validation
+- Paypal Payment
 
 ### 💾 Database (MongoDB + Mongoose)
 - Stores users, products, orders, and cart data
